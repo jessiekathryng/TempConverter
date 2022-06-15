@@ -1,12 +1,17 @@
 #include <math.h>
 #include <stdio.h>
 
-int main(void)
-{
- 
-float degrees = get_float("Celcius: ");
-    int fahrenheit = (degrees * 1.8) + 32;
-     printf("Fahrenheit: %i\n", fahrenheit);
 
+int main(){
+
+float celsius, fahrenheit;
+
+    (celsius * 1.8 ) + 32;
+
+    printf("%f Celsius = %f Farenheit" ,celsius,fahrenheit);
    
+   getchar();
+
+   return 0;
+
 }
